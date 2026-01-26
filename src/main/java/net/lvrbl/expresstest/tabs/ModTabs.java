@@ -31,6 +31,6 @@ public class ModTabs extends CreativeTabs {
 
     public static void register() {
         MOD_BLOCKS.setTabIcon(ItemRegistry.TEST_ITEM);
-        MOD_ITEMS.setTabIcon(Items.arrow);
+        MOD_ITEMS.setTabIcon(Items.apple);
     }
 }
