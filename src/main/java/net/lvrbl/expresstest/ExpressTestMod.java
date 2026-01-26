@@ -2,7 +2,9 @@ package net.lvrbl.expresstest;
 
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.registry.GameRegistry;
+import net.lvrbl.expresstest.registries.BlockRegistry;
 import net.lvrbl.expresstest.registries.ItemRegistry;
+import net.lvrbl.expresstest.tabs.ModTabs;
 import net.minecraft.init.Blocks;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.EventHandler;
@@ -21,5 +23,7 @@ public class ExpressTestMod {
     @EventHandler
     public void preInit(FMLPreInitializationEvent event) {
         ItemRegistry.register();
+        BlockRegistry.register();
+        ModTabs.register();
     }
 }

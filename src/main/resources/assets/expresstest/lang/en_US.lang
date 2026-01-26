@@ -1,1 +1,9 @@
+#Items
 item.test_item.name=Test Item
+
+#Blocks
+tile.test_block.name=Test Block
+
+#Creative Tabs
+itemGroup.tab_block=Blocks
+itemGroup.tab_item=Items
